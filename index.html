@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Cosa Cine</title>    
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img class="logo" src="imagen/logo.png" alt="Logo de La Cosa Cine">
+        <nav>
+            <ul class="cont-nav">
+                <li><a href="#" class="activa">Inicio</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropbtn ">Noticias</a>
+                    <img src="imagen/icon-flecha.png" alt="">
+                    <div class="dropdown-content">
+                        <a href="#">Cine</a>
+                        <a href="#">TV</a>
+                        <a href="#">Comics</a>
+                        <a href="#">Videojuegos</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropbtn ">Críticas</a>
+                    <img src="imagen/icon-flecha.png" alt="">
+                    <div class="dropdown-content">
+                        <a href="#">Rodaje</a>
+                        <a href="#">Trailers</a>
+                        <a href="#">Lanzamientos</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropbtn ">Dossier</a>
+                    <img src="imagen/icon-flecha.png" alt="">
+                    <div class="dropdown-content">
+                        <a href="#">Marvel</a>
+                        <a href="#">Harry Potter</a>
+                        <a href="#">Star Wars</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropbtn ">Entrevistas</a>
+                    <img src="imagen/icon-flecha.png" alt="">
+                    <div class="dropdown-content">
+                        <a href="#">Directores</a>
+                        <a href="#">Actores</a>
+                        <a href="#">Guionistas</a>
+                        <a href="#">Productores</a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+        <ul class="nav-otros">
+            <li>
+                <div class="barra-buscar">
+                    <img src="imagen/icon-buscar.png" alt="">
+                    <input type="text" placeholder="Buscar en La Cosa Cine">
+                </div>
+            </li>
+            
+            <li>
+                <div class="lista-seguimiento">
+                    <a href="./form.html">
+                        <img src="imagen/icon-seguimiento.png" alt="" class="imagen-normal">
+                        <img src="imagen/icon-seguimiento-hover.png" alt="" class="imagen-hover">
+                        <p>Lista de seguimiento</p>
+                    </a>
+                </div>            
+            </li>                      
+                   
+            <li class="dropdown user-person">
+                <img src="imagen/icon-user.png" alt="" class="imagen-normal">
+                <img src="imagen/icon-user-hover.png" alt="" class="imagen-hover">
+                <a href="#" class="dropbtn">Lara</a>
+                <img src="imagen/icon-flecha.png" alt="">
+                <div class="dropdown-content">
+                    <a href="#">Mi perfil</a>
+                    <a href="#">Ajustes</a>
+                    <a href="#">Cerrar sesión</a>
+                </div>
+            </li>                        
+                       
+        </ul>
+    </header>
+    <section class="bienvenida">
+        <h2>Bienvenida, Lara. Esto es lo que estuvo ocurriendo ultimamente...</h2>
+        <p>Esta pagina de inicio se personalizará a medida que leas los articulos de tu interes.</p>
+    </section>
+    <section class="encabezado">
+        <div class="carousel">
+           <div class="slides">
+             <div class="slide active">
+               <img src="./imagen/carrusel (1).png" alt="Slide 1">
+               <div class="text-overlay">
+                 <h1>LOS JUEGOS DEL HAMBRE ANUNCIA NUEVO LIBRO</h1>
+                 <p class="subtitulo-1">Suzanne Collins regresará con una nueva novela, situada en el segundo Vasallaje de los 25.</p>
+               </div>
+             </div>
+             <div class="slide">
+               <img src="./imagen/carrusel (2).png" alt="Slide 2">
+               <div class="text-overlay">
+                 <h1>WOLVES REÚNE A BRAD PITT Y GEORGE CLOONEY</h1>
+                 <p class="subtitulo-1">Apple Studios y el director Jon Watts juntan una vez más a dos leyendas del cine en Wolves.</p>
+               </div>
+             </div>
+             <div class="slide">
+               <img src="./imagen/carrusel (3).png" alt="Slide 3">
+               <div class="text-overlay">
+                 <h1>AMONG US REVELA EL TRAILER DE SU SERIE ANIMADA</h1>
+                 <p class="subtitulo-1">Among Us saltará del mundo de los videojuegos al de la televisión con una serie animada.</p>
+               </div>
+             </div>
+           </div>
+        </div>
+    </section>
+
+    <section class="cont para-ti">
+        <div class="titulo-seccion">
+            <h2>Recomendaciones personalizadas</h2>
+            <button class="boton-terciario">Ver todo</button>
+        </div>
+        
+        <div class="cont-parati">
+            <div class="not-mayor">
+               <div class="degrade">
+                   <img src="imagen/parati (1).jpg" alt="" class="degrade" >
+               </div>
+               <p class="etiqueta overlay">Cine</p>
+               <div class="cont-info overlay">
+                   <h1>MAZE RUNNER: ¿QUÉ ESPERAR DEL REINICIO DE LA FRANQUICIA?</h1> 
+                   <p class="subtitulo-1">Maze Runner se unirá a sagas como Harry Potter y Twilight, y tendrá una nueva versión para la pantalla, aunque no como imaginamos.</p>
+                   <h5>23, Mayo</h5>
+               </div>
+           </div>      
+   
+            <div class="not-menores">
+               
+               <div class="noticia">
+                <img src="imagen/parati (2).jpg" alt="" class="portada-noticia">
+                <p class="etiqueta overlay">Cine</p>
+                  <div class="info-lateral">
+                     <h4>LOS JUEGOS DEL HAMBRE Y LA IDEA DE JENA MALONE PARA UNA SECUELA</h4>
+                     <h5>17, Marzo</h5>
+                  </div>
+               </div>
+
+               <div class="noticia">
+                    <img src="imagen/parati (3).jpg" alt="" class="portada-noticia">
+                    <p class="etiqueta overlay">Cine</p>
+                    <div class="info-lateral">
+                        <h4>HARRY POTTER Y EL CONSEJO DE TOM FELTON PARA LA SERIE DE TV</h4>
+                        <h5>21, Marzo</h5>
+                </div>
+               </div>
+
+               <div class="noticia">
+                    <img src="imagen/parati (4).jpg" alt="" class="portada-noticia">
+                    <p class="etiqueta overlay">Cine</p>
+                        <div class="info-lateral">
+                            <h4>Furiosa es una nueva obra maestra de Mad Max</h4>
+                            <h5>05, Marzo</h5>
+                        </div>
+               </div>
+               
+            </div>
+   
+         </div>
+    </section>
+
+    <section class="cont list-seg">
+        <div class="titulo-seccion">
+           <h2>Lista de seguimiento</h2>
+        </div>
+        <div class="sub-titulos">
+            <h2>Según tu lista de “peliculas distopicas”</h2>
+            <p class="sub-titulos2">Selecciona y guarda los articulos que te interesen o desees leer más tarde.</p>
+        </div>
+        <div class="cont-list">    
+
+            <div class="nota-list">
+                <img src="imagen/litadeseguimiento(1).jpg" alt="" class="portada-noticia">
+                <p class="etiqueta overlay">Cine</p>
+                <div class="info-lateral">
+                    <h3>FURIOSA: ¿QUÉ SUCEDERÍA CON EL PERSONAJE DESPUÉS DE FURY ROAD?</h3>
+                    <p class="subtitulo-3">Gracias al estreno de Furiosa conocemos el pasado del personaje</p>
+                    <div class="cont-fechayboton">
+                        <h5>21, Mayo</h5>
+                        <button class="boton-principal">Añadir</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="nota-list">
+                <img src="imagen/litadeseguimiento(2).jpg" alt="" class="portada-noticia">
+                <p class="etiqueta overlay">Cine</p>
+                <div class="info-lateral">
+                    <h3>CIVIL WAR: ALEX GARLAND PRESENTA UNA ESTADOS UNIDOS EN CRISIS</h3>
+                    <p class="subtitulo-3">El director de Ex Machina y Aniquilación regresa con otra arriesgada apuesta</p>
+                    <div class="cont-fechayboton">
+                    <h5>21, Mayo</h5>
+                    <button class="boton-principal">Añadir</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="nota-list">
+                <img src="imagen/litadeseguimiento(3).jpg" alt="" class="portada-noticia">
+                <p class="etiqueta overlay">Cine</p>
+                <div class="info-lateral">
+                    <h3>CAZADORES EN TIERRA INHÓSPITA EXPLOTA CON SU PRIMER TRAILER</h3>
+                    <p class="subtitulo-3">Heo Myeong-haeng debuta como director para Netflix con el gran Don Lee</p>
+                    <div class="cont-fechayboton">
+                    <h5>21, Mayo</h5>
+                    <button class="boton-principal">Añadir</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="nota-list">                
+                <img src="imagen/litadeseguimiento(4).jpg" alt="" class="portada-noticia">
+                <p class="etiqueta overlay">Cine</p>
+                <div class="info-lateral">
+                    <h3>JENNIFER LÓPEZ PROTAGONIZA EL NUEVO TRAILER DE ATLAS</h3>
+                    <p class="subtitulo-3">Netflix continúa con su estrecha relación con Jennifer López y presentan Atlas, una nueva aventura de ciencia ficción.</p>
+                    <div class="cont-fechayboton">
+                    <h5>21, Mayo</h5>
+                    <button class="boton-principal">Añadir</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="cont sugerencias">       
+        <div class="titulo-seccion">
+           <h2>por que leiste “TOMb RAIDER: PRIMER VISTAZO A LA SERIE ANIMADA”</h2>
+           <button class="boton-terciario">Ver todo</button>
+        </div> 
+        <div class="cont-sug">
+            
+           <div class="nota-sug">
+                 <img src="imagen/sugerencia (1).jpg" alt="" class="portada-noticia">                  
+                 <p class="etiqueta overlay">Cine</p>
+                 <div class="info-inferior">
+                    <h3>TOMB RAIDER: AUBREY PLAZA REVELÓ SI INTERPRETARÁ A LARA CROFT</h3>
+                    <h5>22, Junio</h5>
+                 </div>
+           </div>
+
+           <div class="nota-sug">
+                 <img src="imagen/sugerencia (2).jpg" alt="" class="portada-noticia">                  
+                 <p class="etiqueta overlay">Cine</p>
+                 <div class="info-inferior">
+                    <h3>UNCHARTED 2 ESTÁ CADA VEZ MÁS CERCA</h3>
+                    <h5>17, Junio</h5>
+                 </div>
+           </div>
+
+           <div class="nota-sug">
+                 <img src="imagen/sugerencia (3).jpg" alt="" class="portada-noticia">                  
+                 <p class="etiqueta overlay">Cine</p>
+                 <div class="info-inferior">
+                    <h3>Minecraft anuncia el estreno de su película</h3>
+                    <h5>10, Junio</h5>
+                 </div>
+           </div>
+
+           <div class="nota-sug">
+                 <img src="imagen/sugerencia (4).jpg" alt="" class="portada-noticia">   
+                 <p class="etiqueta overlay">Cine</p>
+                 <div class="info-inferior">                    
+                    <h3>The Last of Us: Trailer del episodio final</h3>
+                    <h5>06, Junio</h5>
+                 </div>
+           </div>
+        </div>
+    </section>
+
+    <section class="cont ultima-noticia">
+        <div class="titulo-seccion">
+           <h2>ULTIMAS NOTICIAS</h2>
+           <button class="boton-terciario">Ver todo</button>
+        </div>
+        <div class="conten">
+           <div class="conte-notUltimas">
+              <div class="not-ultimas">
+                 <div class="portada-noticia">
+                     <img src="imagen/ultima-noticia (1).jpg" alt="">
+                     <div class="text-overlay">
+                         <p class="etiqueta">Comics</p>
+                     </div>
+                 </div>
+                 <div class="info-abajo">
+                     <h3>SMALLVILLE: MICHAEL ROSENBAUM ANTICIPA LA SERIE ANIMADA</h3>
+                     <h5>04 Junio</h5>
+                 </div>
+              </div>  
+              
+              <div class="not-ultimas">
+                 <div class="portada-noticia">
+                     <img src="imagen/ultima-noticia (2).jpg" alt="">
+                     <div class="text-overlay">
+                         <p class="etiqueta">TV</p>
+                     </div>
+                 </div>
+                 <div class="info-abajo">
+                     <h3>TWILIGHT OF THE GODS REVELA SU PRIMER VISTAZO</h3>
+                     <h5>07 Junio</h5>
+                 </div>
+              </div>  
+  
+              <div class="not-ultimas">
+                 <div class="portada-noticia">
+                     <img src="imagen/ultima-noticia (3).jpg" alt="">
+                     <div class="text-overlay">
+                         <p class="etiqueta">VideoJuego</p>
+                     </div>
+                 </div>
+                 <div class="info-abajo">
+                     <h3>TOM RAIDER: PRIMER VISTAZO A LA SERIE ANIMADA</h3>
+                     <h5>02 Junio</h5>
+                 </div>
+              </div>  
+  
+              <div class="not-ultimas">
+                 <div class="portada-noticia">
+                     <img src="imagen/ultima-noticia (4).jpg" alt="">
+                     <div class="text-overlay">
+                         <p class="etiqueta">Cine</p>
+                     </div>
+                 </div>
+                 <div class="info-abajo">
+                     <h3>MICKEY 17 Y EL CONFLICTO DETRÁS DE SU ESTRENO</h3>
+                     <h5>06 Junio</h5>
+                 </div>
+              </div>  
+  
+              <div class="not-ultimas">
+                 <div class="portada-noticia">
+                     <img src="imagen/ultima-noticia (5).jpg" alt="">
+                     <div class="text-overlay">
+                         <p class="etiqueta">Cine</p>
+                     </div>
+                 </div>
+                 <div class="info-abajo">
+                     <h3>EASTER EGGS: 5 REFERENCIAS CINÉFILAS QUE NOS ENCANTAN</h3>
+                     <h5>08 Junio</h5>
+                 </div>
+              </div>  
+  
+              <div class="not-ultimas">
+                 <div class="portada-noticia">
+                     <img src="imagen/ultima-noticia (6).jpg" alt="">
+                     <div class="text-overlay">
+                         <p class="etiqueta">TV</p>
+                     </div>
+                 </div>
+                 <div class="info-abajo">
+                     <h3>SHOGUN YA TIENE UN FINAL A LA VISTA</h3>
+                     <h5>21 Junio</h5>
+                 </div>
+              </div>
+              
+              <div class="not-ultimas">
+                 <div class="portada-noticia">
+                     <img src="imagen/ultima-noticia (7).jpg" alt="">
+                     <div class="text-overlay">
+                         <p class="etiqueta">Cine</p>
+                     </div>
+                 </div>
+                 <div class="info-abajo">
+                     <h3>TAYLOR SWIFT INSPIRA NUEVA COMEDIA ROMANTICA</h3>
+                     <h5>21 Junio</h5>
+                 </div>
+              </div>
+  
+              <div class="not-ultimas">
+                 <div class="portada-noticia">
+                     <img src="imagen/ultima-noticia (8).jpg" alt="">
+                     <div class="text-overlay">
+                         <p class="etiqueta">Cine</p>
+                     </div>
+                 </div>
+                 <div class="info-abajo">
+                     <h3>¿A Quiet Place: Day One es la mejor de la saga?</h3>
+                     <h5>01 Junio</h5>
+                 </div>
+              </div>          
+             
+           </div>  
+        </div>    
+     </section>
+
+     <section class="cont tendencias">
+        <div class="titulo-seccion">
+           <h2>tendencias</h2>
+           <button class="boton-terciario">Ver todo</button>
+        </div>
+        <div class="conten">
+           <div class="cont-estreno">
+              <div class="not-estreno">
+                 <div class="portada-noticia">
+                 <img src="imagen/estreno (1).jpg" alt="">
+                 </div>
+                 <div class="text-overlay">
+                    <p class="etiqueta">Cine</p>
+                 </div>
+                 <div class="info-lateral">
+                    <h3>OSCAR 2024: ¿AYUDAN LOS ESTRENOS TARDÍOS?</h3>
+                    <p class="subtitulo-3">La Estrategia de Lanzamiento y su Impacto en la Temporada de Premios</p>
+                    <h5>21 Mayo</h5>
+                 </div>
+              </div>
+  
+              <div class="not-estreno">
+                 <div class="portada-noticia">
+                 <img src="imagen/estreno (4).jpg" alt="">
+                 </div>
+                 <div class="text-overlay">
+                    <p class="etiqueta">Cine</p>
+                 </div>
+                 <div class="info-lateral">
+                    <h3>LOS ESTRENOS MÁS GRANDES Y ESPERADOS DE 2024</h3>
+                    <p class="subtitulo-3">Las Producciones que Prometen Conquistar la Taquilla y la Crítica</p>
+                    <h5>01 Junio</h5>
+                 </div>
+              </div>
+  
+              <div class="not-estreno">
+                 <div class="portada-noticia">
+                 <img src="imagen/estreno (2).jpg" alt="">
+                 </div>
+                 <div class="text-overlay">
+                    <p class="etiqueta">Cine</p>
+                 </div>
+                 <div class="info-lateral">
+                    <h3>X-MEN ‘97 PIERDE A SU CREADOR A DÍAS DE SU ESTRENO</h3>
+                    <p class="subtitulo-3">Impacto en la Serie y Futuro Incierto</p>
+                    <h5>21 Mayo</h5>
+                 </div>
+              </div>
+  
+              <div class="not-estreno">
+                 <div class="portada-noticia">
+                 <img src="imagen/estreno (5).jpg" alt="">
+                 </div>
+                 <div class="text-overlay">
+                    <p class="etiqueta">Cine</p>
+                 </div>
+                 <div class="info-lateral">
+                    <h3>ESTRENOS: LO MEJOR PARA DISFRUTAR EL FIN DE SEMANA</h3>
+                    <p class="subtitulo-3">Películas y Series para Relajarse y Divertirse en Casa</p>
+                    <h5>21 Mayo</h5>
+                 </div>
+              </div>
+  
+              <div class="not-estreno">
+                 <div class="portada-noticia">
+                 <img src="imagen/estreno (3).jpg" alt="">
+                 </div>
+                 <div class="text-overlay">
+                    <p class="etiqueta">Cine</p>
+                 </div>
+                 <div class="info-lateral">
+                    <h3>OSCAR 2024: 7 ESTRENOS REZAGADOS QUE LLEGAN PRÓXIMAMENTE</h3>
+                    <p class="subtitulo-3">Nominados Tardíos que Aún Puedes Ver</p>
+                    <h5>21 Mayo</h5>
+                 </div>
+              </div>
+  
+              <div class="not-estreno">
+                 <div class="portada-noticia">
+                 <img src="imagen/estreno (6).jpg" alt="">
+                 </div>
+                 <div class="text-overlay">
+                    <p class="etiqueta">Cine</p>
+                 </div>
+                 <div class="info-lateral">
+                    <h3>CINCO ESTRENOS QUE ESPERAMOS EN EL 2024</h3>
+                    <p class="subtitulo-3">Las Películas Más Anticipadas del Año y Por Qué No Puedes Perdértelas</p>
+                    <h5>21 Mayo</h5>
+                 </div>
+              </div>
+           </div>
+        </div>
+     </section>
+  
+     <section class="cont entrevistas">
+        <div class="titulo-seccion">
+            <h2>LA COSA CINE ENTREVISTA</h2>
+            <button class="boton-terciario">Ver todo</button>
+         </div>
+        <div class="conten">           
+           <div class="contenedor-entrevista">
+  
+              <div class="entrevista-mayor">
+                    <div class="portada-noticia">
+                       <img src="imagen/entrevista (1).jpg" alt="">
+                    </div>
+                    <div class="cont-info text-overlay">
+                       <h1>NAHIR: ENTREVISTA CON VALENTINA ZENERE Y SIMÓN HEMPE</h1> 
+                       <p class="subtitulo-1">Conversamos con los Protagonistas sobre la pelicula que está capturando la Audiencias</p>
+                        <button class="boton-principal">Ver ahora</button>
+                       <h5>23 Mayo</h5>
+                    </div>
+              </div>
+     
+              <div class="entrevista-menor">   
+                 <div class="entrevista">
+                    <img src="imagen/entrevista (2).jpg" alt="">
+                    <div class="info-abajo">
+                       <h3>ELENCO DE INMACULADA: ENTREVISTA</h3>
+                       <h5>25 Marzo</h5>
+                    </div>
+                 </div>
+  
+                 <div class="entrevista">
+                    <img src="imagen/entrevista (3).jpg" alt="">
+                    <div class="info-abajo">
+                       <h3>ELENCO DE INMACULADA: ENTREVISTA</h3>
+                       <h5>25 Marzo</h5>
+                    </div>
+                 </div>
+  
+                 <div class="entrevista">
+                    <img src="imagen/entrevista (4).jpg" alt="">
+                    <div class="info-abajo">
+                       <h3>ELENCO DE INMACULADA: ENTREVISTA</h3>
+                       <h5>25 Marzo</h5>
+                    </div>
+                 </div>
+  
+                 <div class="entrevista">
+                    <img src="imagen/entrevista (5).jpg" alt="">
+                    <div class="info-abajo">
+                       <h3>ELENCO DE INMACULADA: ENTREVISTA</h3>
+                       <h5>25, Marzo</h5>
+                    </div>
+                 </div>
+              </div>
+     </section>
+  
+     <section class="cont mas-noticias">   
+        <div class="titulo-seccion">
+           <h2>Más noticias</h2>
+        </div>   
+        <div class="cont-masnoticas">
+            <div class="filter-container">
+                <button class="filter-btn" data-category="estreno">Estreno y Lanzamientos</button>
+                <button class="filter-btn" data-category="trailers">Trailers y Avances</button>
+                <button class="filter-btn" data-category="críticas">Críticas y Reseñas</button>
+                <button class="filter-btn" data-category="comics">Comics y Novelas Graficas</button>
+                <button class="filter-btn" data-category="videojuegos">Conexiones con Videojuegos</button>
+                <button class="filter-btn" data-category="actores">Actores</button>
+                <button class="filter-btn" data-category="productores">Productores</button>
+                <button class="filter-btn" data-category="guionistas">Guionistas</button>
+                <button class="filter-btn" data-category="directores">Directores</button>
+                <button class="filter-btn" data-category="cine">Cine</button>
+                <button class="filter-btn" data-category="tv">TV</button>
+            </div>
+           <div class="cont-masnot">
+            <div class="articles-container">
+                <article class="article" data-category="estreno">
+                    <div class="nota-masnoticias">
+                    <div class="portada-noticia">
+                       <img src="imagen/mas-noticias (1).jpg" alt="">
+                       <div class="text-overlay">
+                          <p class="etiqueta">Estreno</p>
+                       </div>
+                    </div>
+                    <div class="info-inferior">
+                       <h3>Estrenos: Lo mejor para disfrutar el fin de semana</h3>
+                       <h5>21, Mayo</h5>
+                    </div>
+                 </div>
+                </article>
+                <article class="article" data-category="cine">
+                    <div class="nota-masnoticias">
+                        <div class="portada-noticia">
+                           <img src="imagen/mas-noticias (2).jpg" alt="">
+                           <div class="text-overlay">
+                              <p class="etiqueta">Cine</p>
+                           </div>
+                        </div>
+                        <div class="info-inferior">
+                           <h3>Disney confirma otro gran cambio en su calendario de estrenos</h3>
+                           <h5>10, Junio</h5>
+                        </div>
+                     </div>
+                </article>
+                <article class="article" data-category="comics">
+                    <div class="nota-masnoticias">
+                        <div class="portada-noticia">
+                           <img src="imagen/mas-noticias (3).jpg" alt="">
+                           <div class="text-overlay">
+                              <p class="etiqueta">Comics</p>
+                           </div>
+                        </div>
+                        <div class="info-inferior">
+                           <h3>Disney confirma otro gran cambio en su calendario de estrenos</h3>
+                           <h5>10, Junio</h5>
+                        </div>
+                     </div>
+                </article>
+                <article class="article" data-category="actores">
+                    <div class="nota-masnoticias">
+                        <div class="portada-noticia">
+                           <img src="imagen/mas-noticias (4).jpg" alt="">
+                           <div class="text-overlay">
+                              <p class="etiqueta">Actores</p>
+                           </div>
+                        </div>
+                        <div class="info-inferior">
+                           <h3>Disney confirma otro gran cambio en su calendario de estrenos</h3>
+                           <h5>10, Junio</h5>
+                        </div>
+                     </div>
+                </article>
+                <article class="article" data-category="directores">
+                    <div class="nota-masnoticias">
+                        <div class="portada-noticia">
+                           <img src="imagen/mas-noticias (5).jpg" alt="">
+                           <div class="text-overlay">
+                              <p class="etiqueta">Directores</p>
+                           </div>
+                        </div>
+                        <div class="info-inferior">
+                           <h3>Disney confirma otro gran cambio en su calendario de estrenos</h3>
+                           <h5>10, Junio</h5>
+                        </div>
+                     </div>
+                </article>
+                <article class="article" data-category="cine">
+                    <div class="nota-masnoticias">
+                        <div class="portada-noticia">
+                           <img src="imagen/mas-noticias (6).jpg" alt="">
+                           <div class="text-overlay">
+                              <p class="etiqueta">Cine</p>
+                           </div>
+                        </div>
+                        <div class="info-inferior">
+                           <h3>Joker 2 y el increíble trabajo de Lady Gaga</h3>
+                           <h5>10, Junio</h5>
+                        </div>
+                     </div>                    
+                </article>
+                <article class="article" data-category="videojuegos">
+                    <div class="nota-masnoticias">
+                        <div class="portada-noticia">
+                           <img src="imagen/mas-noticias (7).jpg" alt="">
+                           <div class="text-overlay">
+                              <p class="etiqueta">Videojuego</p>
+                           </div>
+                        </div>
+                        <div class="info-inferior">
+                           <h3>Twilight of the Gods revela su primer trailer</h3>
+                           <h5>10, Junio</h5>
+                        </div>
+                     </div>                    
+                </article>                
+                <article class="article" data-category="actores">
+                    <div class="nota-masnoticias">
+                        <div class="portada-noticia">
+                           <img src="imagen/mas-noticias (8).jpg" alt="">
+                           <div class="text-overlay">
+                              <p class="etiqueta">Actores</p>
+                           </div>
+                        </div>
+                        <div class="info-inferior">
+                           <h3>5 Actores Superheroicos Reemplazados</h3>
+                           <h5>10, Junio</h5>
+                        </div>
+                     </div>
+                </article>                
+                <article class="article" data-category="estreno">
+                    <div class="nota-masnoticias">
+                    <div class="portada-noticia">
+                       <img src="imagen/mas-noticias (9).jpg" alt="">
+                       <div class="text-overlay">
+                          <p class="etiqueta">Estreno</p>
+                       </div>
+                    </div>
+                    <div class="info-inferior">
+                       <h3>A Quiet Place: La precuela cambió su fecha de lanzamiento</h3>
+                       <h5>21, Mayo</h5>
+                    </div>
+                 </div>
+                </article>
+                <article class="article" data-category="videojuegos">
+                    <div class="nota-masnoticias">
+                        <div class="portada-noticia">
+                           <img src="imagen/mas-noticias (10).jpg" alt="">
+                           <div class="text-overlay">
+                              <p class="etiqueta">Videojuego</p>
+                           </div>
+                        </div>
+                        <div class="info-inferior">
+                           <h3>Watch Dogs anuncia su adaptación cinematográfica</h3>
+                           <h5>10, Junio</h5>
+                        </div>
+                     </div>                    
+                </article> 
+                <article class="article" data-category="comics">
+                    <div class="nota-masnoticias">
+                        <div class="portada-noticia">
+                           <img src="imagen/mas-noticias (11).jpg" alt="">
+                           <div class="text-overlay">
+                              <p class="etiqueta">Comics</p>
+                           </div>
+                        </div>
+                        <div class="info-inferior">
+                           <h3>DAREDEVIL Y SU ROL EN LA SERIE ANIMADA DE SPIDER-MAN</h3>
+                           <h5>10, Junio</h5>
+                        </div>
+                     </div>
+                </article>
+                <article class="article" data-category="directores">
+                    <div class="nota-masnoticias">
+                        <div class="portada-noticia">
+                           <img src="imagen/mas-noticias (12).jpg" alt="">
+                           <div class="text-overlay">
+                              <p class="etiqueta">Directores</p>
+                           </div>
+                        </div>
+                        <div class="info-inferior">
+                           <h3>Autoficción: La necesidad de los directores de contar su pasado</h3>
+                           <h5>10, Junio</h5>
+                        </div>
+                     </div>
+                </article>
+            </div>
+              
+           </div>
+        </div>
+     </section>
+</body>
+<script src="script.js"></script>
+</html>
